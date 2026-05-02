@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2026-03-22 20:59:15.108414",
+ "date_changed": "expiry_date",
+ "days_in_advance": 30,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Employee Document",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "See employee_document_expiry_notification.md",
+ "message_type": "Markdown",
+ "modified": "2026-03-22 21:30:00.000000",
+ "modified_by": "Administrator",
+ "module": "HRMS Mods",
+ "name": "Employee document Expiry notification",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "HR Manager"
+  },
+  {
+   "receiver_by_role": "HR User"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "subject": "Employee document expiring in {{ days_until_expiry }} day(s) - {{ employee_name }}"
+}

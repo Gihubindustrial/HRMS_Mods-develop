@@ -1,0 +1,13 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Employee",
+        "fieldname": "nationality",
+        "name": "Employee-nationality",
+        "label": "Nationality",
+        "fieldtype": "Link",
+        "options": "Nationality List",
+        "insert_after": "salutation",
+        "module": "hrms_mods"
+    }
+]
